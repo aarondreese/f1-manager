@@ -1,0 +1,45 @@
+.container{
+    background: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+    border: 1px solid red
+}
+
+.form{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: right;
+    
+    width: 100%;
+    border: 1px solid blue
+}   
+
+.formGroup{
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.form label {
+    padding:10px;
+    margin-bottom: 2px;
+}
+.form input{
+    padding:10px;
+    margin: 0px 10px 10px 10px;
+    border-color: none;
+    border-radius: 10px;
+    background-color: #bbb;
+}
+.form button{
+    background-color: teal;
+    color: azure;
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+}

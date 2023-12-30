@@ -1,0 +1,33 @@
+.container{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px red solid;
+    width:500px;
+    background-color: rgb(81, 88, 88);
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: left;
+    padding: 10px;
+    margin:10px
+}
+
+.form label{
+    background-color: rgb(136, 136, 150);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.form input{
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
